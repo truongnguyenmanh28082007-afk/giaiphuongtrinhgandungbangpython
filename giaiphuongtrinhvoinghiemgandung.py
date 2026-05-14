@@ -15,7 +15,7 @@ for i in range(100000):
       
     
 print("x1 =", x)
-y = (5 - x**2)/3)
+y = (5 - x**2)/3
 print("y1 =", y)
 
 #bên âm
@@ -27,6 +27,6 @@ for i in range(100000):
       break
 
 print("x2 =",x)
-y = (5 - x**2)/3)
+y = (5 - x**2)/3
 print("y2 =",y)
-                                             
+                                                 
