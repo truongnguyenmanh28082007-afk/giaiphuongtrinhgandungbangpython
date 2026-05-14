@@ -17,7 +17,7 @@ print("x =", x)
 
 
 # y cũng làm tương tự như x
-# y = -(100 - x**3)**(1/4) <= 
+# y = -(100 - x**3)**(1/4) <= 0
 # tách pt 1 thành { x, y}
                  #{ (5 - y*3)**(1/2), y}
 # tách pt 2 thành { x, y}
