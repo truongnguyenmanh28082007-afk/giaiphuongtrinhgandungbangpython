@@ -9,7 +9,7 @@ def f(x):
      return abs(((5 - x**2)/3) + (100 - x**3)**(1/4))
 
 for i in range(100000):
-    x += 0.01  # (vì x dương)
+    x += 0.01  
     if f(x) < f(x + 0.01):
         break;
       
