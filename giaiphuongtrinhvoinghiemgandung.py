@@ -12,7 +12,7 @@ def hephuongtrinh(variables):
 # nên chọn giá trị dự đoán sao cho gần với nghiệm của pt mũ lớn hơn
 # x^3 - y^4 - 100 = 0 => x = 5, y = -2 hoặc y = 2 
 # x^2 + y*3 - 5 = 0 => x = 5, y = -2
-dudoan= [5,-2] 
+dudoan = [5,-2] 
 
 # giải hệ phương trình
 root = fsolve(hephuongtrinh, dudoan)
