@@ -15,14 +15,14 @@ def hephuongtrinh(variables):
 dudoan = [5,-2] 
 
 # giải hệ phương trình
-root = fsolve(hephuongtrinh, dudoan)
+sol = fsolve(hephuongtrinh, dudoan)
 
-xbest, ybest = root
+xbest, ybest = sol
 
 print(f"x: {xbest:.4f}")
 print(f"y: {ybest:.4f}")
 
-# Kiểm tra lại sai số
+# sai số
 print(f"sai số f1:{xbest**2 + ybest*3 - 5:.6f}")
 print(f"sai số f2: {xbest**3 - ybest**4 - 100:.6f}")
                                            
